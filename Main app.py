@@ -217,7 +217,7 @@ def clicked():
             msg.attach(MIMEText(body,'plain'))
 
             email=from_addr
-            password='vijay@321'
+            password=''
 
             mail=smtplib.SMTP('smtp.gmail.com',587)
             mail.ehlo()
